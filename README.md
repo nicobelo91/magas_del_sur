@@ -1,3 +1,3 @@
 # README
 
-Página de Magas del Sur
+Página de Magas del Sur 2
