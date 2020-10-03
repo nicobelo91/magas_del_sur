@@ -21,15 +21,24 @@
      font-family: 'Poppins', sans-serif;
  }
 
-.navbar, .home-callout {
- // Sun on the Horizon gradient from uiGradients.com
- background: #fceabb;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to left, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 .navbar {
+ // Gradient from uiGradients.com
+ background: #408000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #408000, #ffffff, #DBD5A4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #408000, #ffffff, #DBD5A4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  border: none;
 }
+
+@media (min-width: 768px) { .navbar-nav {
+ float: none;
+ text-align: center;
+}}
+
+@media (min-width: 768px) {
+.navbar-nav > li {
+ text-align: center;
+ vertical-align: middle;
+}}
 
 .home-callout {
  margin-top: -20px;
