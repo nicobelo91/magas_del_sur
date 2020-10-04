@@ -43,3 +43,25 @@
 .navbar-toggle {
  float: none;
 }
+
+.navbar-default .navbar-toggle {
+ align-content: center;
+ padding-bottom: 0px;
+ &:hover, &:focus {
+  background-color: #f0eedb;
+ }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: black;
+}
+
+.navbar-default .navbar-toggle::after {
+ content: "MENÚ";
+ border: none;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+ padding-left: 30px;
+ position: relative;
+ top: -15px;
+}
