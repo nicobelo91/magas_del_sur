@@ -30,12 +30,11 @@
  text-align: center;
 }
 
-@media (min-width: 768px) { .navbar-nav {
+.navbar-nav {
  float: none;
  text-align: center;
  display: inline-block;
-}}
-
+}
 
 .home-callout {
  margin-top: -20px;

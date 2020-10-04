@@ -11,11 +11,11 @@
   <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class='container'>
-        <div class="text-center container-fluid">
-          <a href="/"><%= image_tag("magas-logo.png", :alt => "magas logo", :size => "286x231") %></a>
-        </div>
+          <%= link_to "/", class: "text-center container-fluid" do %>
+            <%= image_tag("magas-logo.png", :alt => "magas logo", :size => "286x231") %>
+          <% end %>
         <ul class="nav navbar-nav alignment">
-          <li><a href="/about">Quienes somos</a></li>
+          <li><%= link_to "Quienes somos", "/about" %></li>
           <li><a href="/contact-us">Contactenos</a></li>
           <li><a href="/products">Productos</a></li>
         </ul>
