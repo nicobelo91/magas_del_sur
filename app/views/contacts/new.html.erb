@@ -3,10 +3,13 @@
   <%= form_for "/contacts" do |f| %>
     <%= f.label :nombre %>
     <%= f.text_field :nombre %>
+    
     <%= f.label :email %>
     <%= f.text_field :email %>
+    
     <%= f.label :comentario %>
     <%= f.text_area :commentario %>
+    
     <%= f.submit 'Enviar' %>
   <% end %>
 </div>
